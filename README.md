@@ -1,3 +1,3 @@
-#Diabolic Stream Profile Stuff
+# Diabolic Stream Profile Stuff
 
-shhh
+magnets? how do they work?
