@@ -17,39 +17,47 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 <style>
-    body {
-        color: #fff;
-        margin: 0;
-        padding: 0;
-    }
+body {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
 
-    .social {
-        font-size: 16px;
-        font-family: Changa;
-        overflow: hidden;
-        font-weight: 500;
-        display: flex;
-    }
+.social {
+  font-size: 18px;
+  font-family: Changa;
+  overflow: hidden;
+  font-weight: 500;
+  display: flex;
+}
 
-    .social-item {
-        padding: .75em;
-        background-color: rgba(0,0,0,.5);
-        display: flex;
-        align-items: center;
-        line-height: 1;
-    }
+.social-item {
+  padding: .5em .75em;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  line-height: 1;
+  text-shadow: 0px 0px 1px #eee, 2px 2px 1px teal,
+    -2px -1px 1px mix(black, red, 50);
+}
 
-    .social-item i {
-        transform: translate(-2px, -1px);
-        padding-left: 2px;
-        display: inline-block;
-    }
+.social-item i {
+  transform: translate(-2px, -1px);
+  padding-left: 2px;
+  display: inline-block;
+}
 
-    .social-item + .social-item {
-        margin-left: 1px;
-    }
+.social-item + .social-item {
+  margin-left: 1px;
+}
 
-    .social-item:first-of-type {
-        border-top-left-radius: 6px;
-    }
+.social-item:first-of-type {
+  border-top-left-radius: 6px;
+}
+
+.social-item:last-of-type {
+  border-top-right-radius: 6px;
+}
 </style>
